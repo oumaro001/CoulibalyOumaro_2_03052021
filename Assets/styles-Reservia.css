@@ -65,7 +65,7 @@ nav ul li a:hover {
     color: #0065FC;
     text-decoration: none;
     position: relative;
-    left: 33%;
+    left: 36%;
     top: 5px;
     float: right;
 }
@@ -94,12 +94,12 @@ nav ul li a:hover {
 
 
 /* ---HEADER----*/
-header {
+#section_recherche {
 
-    margin-top: 5.34%;
+    margin-top: 1.34%;
 }
 
-#TitreHeader h1 {
+#titre_header h1 {
 
     font-size: 2em;
 
@@ -129,7 +129,7 @@ header>p {
     display: inline-flex;
     max-width: 100%;
     overflow: auto;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .Buttonîcone {
@@ -174,11 +174,20 @@ header>p {
     cursor: pointer;
 }
 
+::placeholder {
+    color: black;
+    opacity: 1; 
+  }
+
+  .search_loupe {
+
+    display: none;
+  }
 /*--------FILTRE DE RECHERCHE-----*/
 #Filtres {
 
     display: flex;
-    margin-top: 7em;
+    margin-top: 31px;
     padding-top: 4px;
     height: 45px;
 }
@@ -210,6 +219,7 @@ header>p {
 
     position: relative;
     background-color: #DEEBFF;
+    color: #0065FC;
     border-radius: 100%;
     height: 1.6rem;
     width: 1.8rem;
@@ -236,7 +246,7 @@ header>p {
 
 .FiltreSearch:hover {
 
-    background-color: lightskyblue;
+    background-color: #DEEBFF;
 
 }
 
@@ -245,7 +255,7 @@ header>p {
 #Information_logement {
 
     display: flex;
-    padding-top: 2em;
+    margin-top: 20px;
 }
 
 .info {
@@ -287,10 +297,7 @@ header>p {
     left: -1px;
 }
 
-/*----------Hebergement-------------------
-
-
-*/
+/*----------Hebergement-------------------*/
 
 .CardHebergement {
     border: 6px solid white;
@@ -311,7 +318,7 @@ header>p {
 #Section1 {
 
     display: flex;
-    justify-content: space-between;
+    margin-top: -43px;
 
 }
 
@@ -322,18 +329,19 @@ header>p {
 
 }
 
-.Info_Cards {
 
-    height: 61px;
-    position: relative;
-    top: -6px;
+
+.CardHebergement > p{
+
+    position:relative;
+    top: -12px;
+
 }
-
 
 .CardHebergement>img {
 
-    width: 234px;
-    height: 113px;
+    width: 206px;
+    height: 111px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
 }
@@ -353,17 +361,13 @@ h3>p {
 }
 
 
-.prix {
-
-    font: -moz-document;
-}
 
 .StarNote {
 
     width: 90px;
     font-size: small;
     color: #0065FC;
-    margin-top: -12px;
+    margin-top: -24px;
 }
 
 figure>a {
@@ -384,7 +388,7 @@ figure>a {
     display: flex;
     justify-content: space-between;
     flex-flow: column;
-    width: 878px;
+    width: 849px;
     height: 623px;
 }
 
@@ -419,11 +423,11 @@ h4 {
     background-color: #F2F2F2;
     border-radius: 4%;
     padding-left: 6em;
-    margin-right: 0em;
     margin-top: 66px;
     margin-bottom: 3em;
     width: 19em;
     text-decoration:none ;
+    margin-left: 2.3%;
 }
 
 
@@ -470,7 +474,6 @@ h4 {
 }
 
 
-
 .PopulaireH2>h2 {
 
     position: relative;
@@ -494,11 +497,12 @@ h4 {
 
     border: 6px solid white;
     display: flex;
-    border-radius: 10px;
+    border-radius: 16px;
     padding: 1px;
     padding-bottom: 4px;
     background-color: white;
     box-shadow: 3px 4px #0000002e;
+    height: 129px;
 }
 
 .discription_img {
@@ -514,19 +518,27 @@ h4 {
     text-decoration: none;
 }
 
-.discription_img>h3,
-p {
+.discription_img> p {
 
-    text-decoration: none;
+
+  margin-top: -15px;
 
 }
 
+
+.discription_img > .StarNote {
+
+
+    margin-top: 14%;
+  
+  }
 .Img_Hebergement_Populaire>img {
 
-    width: 8em;
-    height: 112px;
+    width: 140px;
+    height: 135px;
     padding-right: 0em;
     margin-right: 1em;
+    border-radius: 13px 0px 1px 13px;
 }
 
 
@@ -535,7 +547,7 @@ p {
 #Activité_Marseille {
 
 
-    margin-top: 1em;
+    margin-top: -60px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -557,7 +569,7 @@ p {
     height: 406PX;
     border-radius: 3% 2% 0% 0%;
     margin-top: -3px;
-    margin-left: -1px;
+    margin-left: -2px;
     margin-right: -1.4px;
 }
 
@@ -569,7 +581,6 @@ p {
     margin-top: 2em;
     border: 1px solid white;
     border-radius: 12px;
-    padding-bottom: 2em;
     padding-left: 0.9px;
     box-shadow: 0 0 16px #0000002e;
 }
@@ -593,7 +604,7 @@ p {
 
     display: flex;
     justify-content: center;
-    margin-left: 18px;
+    margin-left: 13px;
     margin-right: 0;
     width: 100%;
 }
@@ -601,6 +612,7 @@ p {
 #Block_Img_1 {
 
     display: flex;
+    margin-left: -5px;
 
 }
 
@@ -608,6 +620,7 @@ p {
 
     display: flex;
     align-items: center;
+    margin-left: -7px;
 }
 
 .petit_block_Img {
@@ -620,24 +633,30 @@ p {
 .Img_paul {
 
 
-    display: flex;
-    flex-flow: column;
-    margin-left: 0;
-    background-color: white;
-    margin-top: -7em;
-    border: 1px solid white;
-    border-radius: 12px;
+   
+    margin: -7em 0px 0px 0px;
     padding-bottom: 0em;
     padding-left: 0.9px;
-    box-shadow: 0 0 16px #0000002e;
     height: 281PX;
-    width: 297px;
+    
+}
+
+.img_activite{
+
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding-left: 0.9px;
+    box-shadow: 0 0 16px #0000002e;
+    width: 290px;
     text-decoration: none;
 }
 
 .Img_paul>img {
 
-    width: 300px;
+    width: 293px;
     height: 236px;
     border-radius: 6% 6% 1% 0%;
     margin-top: -3px;
@@ -646,29 +665,19 @@ p {
 
 .images_Îles_frioule {
 
-    margin-top: -5em;
-    display: flex;
-    flex-flow: column;
-    background-color: white;
-    margin-top: 1.8em;
-    border: 1px solid white;
-    border-radius: 12px;
-    padding-bottom: 2em;
-    padding-left: 0.9px;
-    box-shadow: 0 0 16px #0000002e;
-    width: 298px;
+    margin-left: -38px;
+        padding-bottom: 2em;
     height: 145px;
-    margin-top: 1em;
-    text-decoration: none;
+    margin-top: 2em;
 }
 
 
 .Img_iles_des_frioule>img {
 
-    width: 300px;
+    width: 292px;
     height: 135px;
     border-radius: 6% 6% 1% 0%;
-    margin-left: -41px;
+    margin-left: -1px;
     margin-top: -17px;
 
 }
@@ -676,7 +685,6 @@ p {
 .Img_iles_des_frioule>p {
 
 
-    margin-left: -27px;
     margin-top: 5px;
 
 }
@@ -719,38 +727,38 @@ p {
 }
 
 .Img_Notre_Dames {
-    background-color: white;
 
+    background-color: white;
     display: inline-table;
     margin-top: 3em;
     border: 1px solid white;
     border-radius: 12px;
     padding-left: 0.9px;
     box-shadow: 0 0 16px #0000002e;
-    margin-left: 0;
+    margin-left: -9px;
+    width: 101px;
 }
 
 .Img_Notre_Dames>img {
 
-    width: 275px;
+    width: 270px;
     height: 135px;
     border-radius: 6% 6% 1% 0%;
     margin-top: -17px;
+    margin-left: -2.8px;
+    margin-right: -1.2px;
 
 }
 
 
 .Img_Parc_longchamp {
 
-    background-color: white;
     margin-left: 3em;
     display: inline-table;
     margin-top: 2em;
-    border: 1px solid white;
-    border-radius: 12px;
     padding-left: 0.9px;
-    box-shadow: 0 0 16px #0000002e;
-    margin-left: 0;
+    margin-left: -11px;
+    width: 100px;
 }
 
 .Img_Parc_longchamp>img {
@@ -759,18 +767,24 @@ p {
     height: 205px;
     border-radius: 6% 6% 1% 0%;
     margin-top: -17px;
+    margin-left: -2.8px;
+    margin-right: -1.2px;
 
 }
 
 /*------------------------FOOTER-----------*/
 footer {
 
+    margin-bottom: -9px;
     display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
     color: black;
-    margin-top: 4em;
+    margin-top: 5em;
     padding-top: 3em;
+    margin-left: -1%;
+    padding-left: 1.5%;
+    margin-right: -5px;
 
 }
 

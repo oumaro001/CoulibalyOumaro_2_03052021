@@ -3,11 +3,12 @@
 
     main {
 
-        margin-left: 0;
-        margin-right: 0;
+
         margin-top: 2.65%;
         text-align: center;
-        width: 100%;
+        margin-left: 4%;
+        margin-right: 19%;
+
 
 
     }
@@ -18,6 +19,10 @@
     }
 
 
+    h2{
+
+        margin-left: 2em;
+    }
     /*------MENU----*/
     nav {
 
@@ -40,7 +45,18 @@
     .Link-Nav {
         border-top: none;
         border-bottom: 3px solid #F2F2F2;
-        width: 50%;
+        width: 45.8%;
+        font-size: 22px;
+        margin-left: -66px;
+        padding-left: 61px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Link-Nav:hover {
+
+        color: #0065FC;
+        border-bottom: 3px #0065fc solid
     }
 
     li {
@@ -48,6 +64,11 @@
         font-size: x-large;
         width: 100%;
 
+    }
+
+    li:hover{
+
+        color: #0065FC;
     }
 
     #Activite {
@@ -67,23 +88,37 @@
         margin-top: 9em;
         width: 100%;
         position: relative;
-        left: 56px;
+        left: 103px;
     }
 
 
 
     nav ul li a:hover {
 
-        color: #0065FC;
-        border-bottom: #0065FC 3px solid;
-        padding-bottom: 32.4px;
+
         border-top: hidden;
     }
 
     #inscription {
 
-        left: -1em;
-        top: -178px;
+        left: 2em;
+        top: -229px;
+    }
+
+    #TitreHeader {
+
+        text-align: left;
+    }
+
+    /*-------Barre de recherche---------*/
+    .search_loupe {
+
+        display: table;
+    }
+
+    .searchFormSubmitinputText {
+
+        display: none;
     }
 
     /*-----FILTRE----*/
@@ -110,10 +145,9 @@
     #ButtonFiltres {
 
         flex-direction: column;
-        width: 100%;
     }
 
-  
+
     /*----informaton logement------*/
 
     .info>i {
@@ -130,18 +164,33 @@
 
         width: 100%;
         padding-bottom: 63em;
+        background-color: white;
+        border: none;
     }
 
     #Section1 {
 
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
     #div_Hebergement {
 
         padding-bottom: 10em;
         margin-top: 8px;
+        margin-left: 24px;
+    }
+
+
+    .CardHebergement {
+
+        text-align: left;
+    }
+
+    .CardHebergement>img {
+
+        width: 265px;
     }
 
     .AfficherPlus {
@@ -158,9 +207,16 @@
 
     #LesPlusPopulaires {
 
-        width: 100%;
+        width: 87%;
+        display: flex;
+        flex-flow: column wrap;
+        margin-left: -14px;
     }
 
+
+    .AfficherPlus {
+        margin-left: 6em; 
+    }
     /*----------Activité-----*/
 
     #Activité_Marseille {
@@ -182,849 +238,75 @@
         flex-flow: column;
         flex-wrap: wrap;
         margin-left: 00%;
+        padding-left: 57px;
     }
 
+    .petit_block_Img {
+
+        margin-top: 10em;
+    }
 
     #Block_img_2 {
 
         display: block;
+        margin-left: 56px;
+        margin-top: 65px;
+    }
+
+    .petit_block_Img2 {
+
+        margin-top: 0em;
+    }
+
+    .Img_Hebergement_Populaire {
+
+        height: 119px;
+
+    }
+
+    .Img_Hebergement_Populaire>img {
+
+        height: 124px;
+
+    }
+
+    .discription_img {
+
+        font-size: 13px;
+    }
+
+    .discription_img>.StarNote {
+        margin-top: -12px;
+    }
+
+
+    /*----------------Activité--------------------*/
+
+    .img_activite>img {
+
+
+        height: 145px;
+        width: 220px;
+
+    }
+
+    .img_activite {
+
+
+        height: 190px;
+        width: 217px;
     }
 
     /*----------footer---*/
     footer {
 
-        flex-direction: column;
-        
-    
+        display: block;
+
+
     }
 
-    #A_propos{
+    #A_propos {
 
         margin-left: 3%;
     }
-}
-
-@media screen and ( min-width:351px ) and (max-width:480px) {
-    /*----SMARTPHONE GRANDE TAILLE-----*/
-
-    main {
-
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 2.65%;
-        text-align: center;
-        width: 100%;
-
-
-    }
-
-    #Haut_de_page {
-
-        display: block;
-    }
-
-
-    /*------MENU----*/
-    nav {
-
-        border-bottom: 1px lightgray solid;
-        display: contents;
-
-    }
-
-    #Logos {
-
-
-        margin-top: 10px;
-        width: 110px;
-        height: 4em;
-        float: left;
-
-    }
-
-
-    .Link-Nav {
-        border-top: none;
-        border-bottom: 3px solid #F2F2F2;
-        width: 50%;
-    }
-
-    li {
-
-        font-size: x-large;
-        width: 100%;
-
-    }
-
-    #Activite {
-
-        margin-top: 2em;
-
-    }
-
-    #hebergement {
-
-        margin-top: 2em;
-    }
-
-    #Hebergement_activite {
-
-        display: flex;
-        margin-top: 9em;
-        width: 100%;
-        position: relative;
-        left: 70px;
-    }
-
-
-
-    nav ul li a:hover {
-
-        color: #0065FC;
-        border-bottom: #0065FC 3px solid;
-        padding-bottom: 32.4px;
-        border-top: hidden;
-    }
-
-    #inscription {
-
-        left: -1em;
-        top: -178px;
-    }
-
-    /*-----FILTRE----*/
-
-    #Filtres {
-
-
-        flex-wrap: wrap;
-        width: 80%;
-        justify-content: flex-start;
-
-    }
-
-    .FiltreSearch {
-
-        margin-top: 20px;
-    }
-
-    #Information_logement {
-
-        margin-top: 19em;
-    }
-
-    #ButtonFiltres {
-
-        flex-direction: column;
-        width: 100%;
-    }
-
-  
-    /*----informaton logement------*/
-
-    .info>i {
-
-
-        left: 1px;
-    }
-
-
-    /*----------Hebergement-----*/
-
-    #HemergementMarseille {
-
-
-        width: 100%;
-        padding-bottom: 63em;
-    }
-
-    #Section1 {
-
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #div_Hebergement {
-
-        padding-bottom: 10em;
-        margin-top: 8px;
-    }
-
-    .AfficherPlus {
-
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #îcones_populaires {
-        position: relative;
-        top: -1em;
-        left: 4em;
-    }
-
-    #LesPlusPopulaires {
-
-        width: 100%;
-    }
-
-    /*----------Activité-----*/
-
-    #Activité_Marseille {
-
-        display: block;
-        width: 100%;
-    }
-
-    #Article_Activite_Marseille {
-
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    #Block_Img_1 {
-
-        display: flex;
-        flex-flow: column;
-        flex-wrap: wrap;
-        margin-left: 00%;
-    }
-
-
-    #Block_img_2 {
-
-        display: block;
-    }
-
-    /*----------footer---*/
-    footer {
-
-        flex-direction: column;
-        
-    
-    }
-
-    #A_propos{
-
-        margin-left: 3%;
-    }
-}
-
-/*-------------------------------------------------------------------------TABLETTE------*/
-
-@media screen and (min-width:481px) and (max-width:768px) {
-
-
-
-    main {
-
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 2.65%;
-        text-align: center;
-        width: 100%;
-
-
-    }
-
-    #Haut_de_page {
-
-        display: block;
-    }
-
-    /*------MENU----*/
-    nav {
-
-        border-bottom: 1px lightgray solid;
-        display: contents;
-
-    }
-
-    #Logos {
-
-
-        margin-top: 10px;
-        width: 110px;
-        height: 4em;
-        float: left;
-
-    }
-
-
-    .Link-Nav {
-        border-top: none;
-        border-bottom: 3px solid #F2F2F2;
-        width: 50%;
-    }
-
-    li {
-
-        font-size: x-large;
-        width: 100%;
-
-    }
-
-    #Activite {
-
-        margin-top: 2em;
-
-    }
-
-    #hebergement {
-
-        margin-top: 2em;
-    }
-
-    #Hebergement_activite {
-
-        display: flex;
-        margin-top: 9em;
-        width: 100%;
-        position: relative;
-        left: 79px;
-
-    }
-
-
-
-    nav ul li a:hover {
-
-        color: #0065FC;
-        border-bottom: #0065FC 3px solid;
-        padding-bottom: 32.4px;
-        border-top: hidden;
-    }
-
-    #inscription {
-
-        left: -1em;
-        top: -178px;
-    }
-
-
-
-    /*-----FILTRE----*/
-
-    #Filtres {
-
-
-        flex-wrap: wrap;
-        width: 80%;
-        justify-content: flex-start;
-
-    }
-
-    .FiltreSearch {
-
-        margin-top: 20px;
-    }
-
-
-    .FiltreSearch >p {
-
-        margin: auto;
-    }
-
-    #Information_logement {
-
-        margin-top: 19em;
-    }
-
-    #ButtonFiltres {
-
-        flex-direction: column;
-        width: 100%;
-    }
-
-
-
-    /*----informaton logement------*/
-
-    .info>i {
-
-
-        left: 1px;
-    }
-
-
-    /*----------Hebergement-----*/
-
-    #HemergementMarseille {
-
-
-        width: 100%;
-        padding-bottom: 10em;
-    }
-
-    #Section1 {
-
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #div_Hebergement {
-
-        padding-bottom: 10em;
-        margin-top: 8px;
-    }
-
-    .AfficherPlus {
-
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #îcones_populaires {
-        position: relative;
-        top: -1em;
-        left: 4em;
-    }
-
-    #LesPlusPopulaires {
-
-        width: 100%;
-    }
-
-    /*----------Activité----*/
-
-    #Activité_Marseille {
-
-        display: block;
-        width: 100%;
-    }
-
-    #Article_Activite_Marseille {
-
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    #Block_Img_1 {
-
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 24%;
-    }
-
-
-    #Block_img_2 {
-
-        display: block;
-    }
-
-   
-
-    #A_propos{
-
-        margin-left: 3%;
-    }
-}
-
-
-/*-------------------------------------------------------------------------GRANDE-TABLETTE------*/
-
-@media screen and (min-width:769px) and (max-width:1024px) {
-
-    main {
-
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 2.65%;
-        text-align: center;
-        width: 100%;
-
-
-    }
-
-    #Haut_de_page {
-
-        display: block;
-    }
-
-    /*------MENU----*/
-    nav {
-
-        border-bottom: 1px lightgray solid;
-        display: contents;
-
-    }
-
-    #Logos {
-
-
-        margin-top: 10px;
-        width: 110px;
-        height: 4em;
-        float: left;
-
-    }
-
-
-    .Link-Nav {
-        border-top: none;
-        border-bottom: 3px solid #F2F2F2;
-        width: 50%;
-    }
-
-    li {
-
-        font-size: x-large;
-        width: 100%;
-
-    }
-
-    #Activite {
-
-        margin-top: 2em;
-
-    }
-
-    #hebergement {
-
-        margin-top: 2em;
-    }
-
-    #Hebergement_activite {
-
-        display: flex;
-        margin-top: 9em;
-        width: 100%;
-        position: relative;
-        left: 79px;
-
-    }
-
-
-
-    nav ul li a:hover {
-
-        color: #0065FC;
-        border-bottom: #0065FC 3px solid;
-        padding-bottom: 32.4px;
-        border-top: hidden;
-    }
-
-    #inscription {
-
-        left: -1em;
-        top: -178px;
-    }
-
-
-
-    /*-----FILTRE----*/
-
-    #Filtres {
-
-
-        flex-wrap: wrap;
-        width: 80%;
-        justify-content: flex-start;
-
-    }
-
-    .FiltreSearch {
-
-        margin-top: 20px;
-    }
-
-    .FiltreSearch >p {
-
-        margin: auto;
-    }
-    #Information_logement {
-
-        margin-top: 19em;
-    }
-
-    #ButtonFiltres {
-
-        flex-direction: column;
-        width: 100%;
-    }
-
-
-
-    /*----informaton logement------*/
-
-    .info>i {
-
-
-        left: 1px;
-    }
-
-
-    /*----------Hebergement----*/
-
-    #HemergementMarseille {
-
-
-        width: 100%;
-        padding-bottom: 9em;
-    }
-
-    #Section1 {
-
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #div_Hebergement {
-
-        padding-bottom: 10em;
-        margin-top: 8px;
-    }
-
-    .AfficherPlus {
-
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #îcones_populaires {
-        position: relative;
-        top: -1em;
-        left: 4em;
-    }
-
-    #LesPlusPopulaires {
-
-        width: 100%;
-    }
-
-    /*----------Activité------*/
-
-    #Activité_Marseille {
-
-        display: block;
-        width: 100%;
-    }
-
-    #Article_Activite_Marseille {
-
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .Activité_images {
-        margin-left: -3em;
-
-
-    }
-   
-
-   
-}
-
-
-/*-------------------------------------------------------------------------ORDINATEUR_PORTABLE------*/
-
-@media screen and (min-width:1025px) and (max-width:1600px) {
-
-
-    main {
-
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 2.65%;
-        text-align: center;
-        width: 100%;
-
-
-    }
-
-    #Haut_de_page {
-
-        display: block;
-    }
-
-    /*------MENU----*/
-    nav {
-
-        border-bottom: 1px lightgray solid;
-        display: contents;
-
-    }
-
-    #Logos {
-
-
-        margin-top: 10px;
-        width: 110px;
-        height: 4em;
-        float: left;
-
-    }
-
-
-    .Link-Nav {
-        border-top: none;
-        border-bottom: 3px solid #F2F2F2;
-        width: 50%;
-    }
-
-    li {
-
-        font-size: x-large;
-        width: 100%;
-
-    }
-
-    #Activite {
-
-        margin-top: 2em;
-
-    }
-
-    #hebergement {
-
-        margin-top: 2em;
-    }
-
-    #Hebergement_activite {
-
-        display: flex;
-        margin-top: 9em;
-        width: 100%;
-        position: relative;
-        left: 79px;
-
-    }
-
-
-
-    nav ul li a:hover {
-
-        color: #0065FC;
-        border-bottom: #0065FC 3px solid;
-        padding-bottom: 32.4px;
-        border-top: hidden;
-    }
-
-    #inscription {
-
-        left: -1em;
-        top: -178px;
-    }
-
-
-
-    /*-----FILTRE----*/
-
-    #Filtres {
-
-
-        flex-wrap: wrap;
-        width: 80%;
-        justify-content: flex-start;
-
-    }
-
-    .FiltreSearch {
-
-        margin-top: 20px;
-    }
-
-    .FiltreSearch >p {
-
-        margin: auto;
-    }
-    #Information_logement {
-
-        margin-top: 19em;
-    }
-
-    #ButtonFiltres {
-
-        flex-direction: column;
-        width: 100%;
-    }
-
-
-
-    /*----informaton logement------*/
-
-    .info>i {
-
-
-        left: 1px;
-    }
-
-
-    /*----------Hebergement-------------------*/
-
-    #HemergementMarseille {
-
-
-        width: 100%;
-        padding-bottom: 9em;
-    }
-
-    #Section1 {
-
-
-        flex-wrap: wrap;
-        align-items: stretch;
-    }
-
-    #div_Hebergement {
-
-        padding-bottom: 10em;
-        margin-top: 8px;
-    }
-
-    .AfficherPlus {
-
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #îcones_populaires {
-        position: relative;
-        top: -1em;
-        left: 4em;
-    }
-
-    #LesPlusPopulaires {
-
-        width: 100%;
-    }
-
-    /*----------Activité-------------------*/
-
-    #Activité_Marseille {
-
-        display: block;
-        width: 100%;
-    }
-
-    #Article_Activite_Marseille {
-
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .Activité_images {
-        margin-left: -3em;
-
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
