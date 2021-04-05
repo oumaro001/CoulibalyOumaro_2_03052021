@@ -57,6 +57,7 @@
     li {
 
         font-size: x-large;
+        font-weight: bold;
         width: 100%;
 
     }
@@ -106,6 +107,10 @@
         text-align: left;
     }
 
+    #TitreHeader >p {
+
+        font-size:smaller ;
+    }
     /*-------Barre de recherche---------*/
     .search_loupe {
 
@@ -512,7 +517,7 @@
     #îcones_populaires {
         position: relative;
         top: -1em;
-        left: 4em;
+        left: 5em;
     }
 
     #LesPlusPopulaires {
@@ -792,7 +797,6 @@
     #îcones_populaires {
         position: relative;
         top: -1em;
-        left: 31em;
     }
 
     #LesPlusPopulaires {
@@ -813,13 +817,13 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        flex-direction: column;
     }
 
     #Block_Img_1 {
 
         display: flex;
         flex-wrap: wrap;
+        width: 50%;
     
     }
 
@@ -827,7 +831,9 @@
     #Block_img_2 {
 
         display: flex;
+        flex-flow: wrap;
         margin-left: 32px;
+        width: 50%;
     }
 
     footer {
@@ -1043,6 +1049,7 @@
     
             display: flex;
             flex-wrap: wrap;
+            padding-left: 132px;
         
         }
     
@@ -1050,7 +1057,9 @@
         #Block_img_2 {
     
             display: flex;
+            flex-flow: wrap;
             margin-left: 32px;
+            padding-left: 122px;
         }
     
         footer {
