@@ -29,6 +29,7 @@
         border-bottom: 1px lightgray solid;
         display: contents;
 
+
     }
 
     #Logos {
@@ -86,6 +87,7 @@
         width: 100%;
         position: relative;
         left: 103px;
+        top: -43px;
     }
 
 
@@ -404,6 +406,7 @@
         width: 100%;
         position: relative;
         left: 103px;
+        top: -41px;
     }
 
 
@@ -601,7 +604,7 @@
 
 
         height: 145px;
-        width: 220px;
+        width: 293px;
 
     }
 
@@ -609,7 +612,7 @@
 
 
         height: 190px;
-        width: 217px;
+        width: 290px;
     }
 
     /*----------footer---*/
@@ -683,6 +686,7 @@
 
         font-size: 33px;
         width: 100%;
+        font-size: 24px;
 
     }
 
@@ -704,6 +708,7 @@
         width: 100%;
         position: relative;
         left: 79px;
+        top: -41px;
 
     }
 
@@ -1042,14 +1047,12 @@
             display: flex;
             flex-wrap: wrap;
             width: 100%;
-            flex-direction: column;
         }
     
         #Block_Img_1 {
     
             display: flex;
-            flex-wrap: wrap;
-            padding-left: 132px;
+            padding-left: 38px;
         
         }
     
@@ -1057,9 +1060,8 @@
         #Block_img_2 {
     
             display: flex;
-            flex-flow: wrap;
-            margin-left: 32px;
-            padding-left: 122px;
+            margin-left: 11px;
+         
         }
     
         footer {
