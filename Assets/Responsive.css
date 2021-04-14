@@ -373,7 +373,12 @@
 
      }
 
+    li >a {
 
+    margin-left: 12px;
+
+
+}
      .Link-Nav {
          border-top: none;
          border-bottom: 3px solid #F2F2F2;
@@ -416,7 +421,7 @@
          margin-top: 9em;
          width: 100%;
          position: relative;
-         left: 103px;
+         left: 110px;
          top: -41px;
      }
 
@@ -544,7 +549,7 @@
          width: 87%;
          display: flex;
          flex-flow: column wrap;
-         margin-left: -14px;
+         margin-left: -2px;
      }
 
 
