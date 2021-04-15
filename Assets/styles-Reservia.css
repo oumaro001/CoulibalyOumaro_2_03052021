@@ -340,7 +340,7 @@ header>p {
 
 .CardHebergement>img {
 
-    width: 206px;
+    width: 214px;
     height: 111px;
     border-top-left-radius: 6%;
     border-top-right-radius: 6%;
@@ -532,6 +532,7 @@ h4 {
     margin-top: 14%;
   
   }
+
 .Img_Hebergement_Populaire>img {
 
     width: 140px;
@@ -562,16 +563,15 @@ h4 {
 
 }
 
-.Img_VieuxPort>img {
+.Img_VieuxPort> img {
 
-
-    width: 293px;
+    
     height: 406PX;
-    border-radius: 3% 2% 0% 0%;
     margin-top: -3px;
     margin-left: -2px;
     margin-right: -1.4px;
 }
+
 
 .Img_VieuxPort {
 
@@ -579,10 +579,6 @@ h4 {
     margin-left: 3em;
     display: inline-table;
     margin-top: 2em;
-    border: 1px solid white;
-    border-radius: 12px;
-    padding-left: 0.9px;
-    box-shadow: 0 0 16px #0000002e;
 }
 
 .Text_activite {
@@ -650,15 +646,23 @@ h4 {
     border-radius: 12px;
     padding-left: 0.9px;
     box-shadow: 0 0 16px #0000002e;
-    width: 290px;
+    width: 249px;
     text-decoration: none;
 }
 
+.img_activite > img{
+
+    width: 252px;
+    margin-left: -1px;
+    border-radius: 4% 4% 0% 0%;
+    margin-top: -1px;
+
+
+}
 .Img_paul>img {
 
-    width: 293px;
+    
     height: 236px;
-    border-radius: 6% 6% 1% 0%;
     margin-top: -3px;
     margin-left: -2px;
 }
@@ -674,9 +678,8 @@ h4 {
 
 .Img_iles_des_frioule>img {
 
-    width: 292px;
+ 
     height: 135px;
-    border-radius: 6% 6% 1% 0%;
     margin-left: -1px;
     margin-top: -17px;
 
@@ -691,25 +694,13 @@ h4 {
 
 /*-------petie block 2-------*/
 
-.Img_Parc {
 
-    background-color: white;
-    margin-left: 3em;
-    display: inline-table;
-    margin-top: 2em;
-    border: 1px solid white;
-    border-radius: 12px;
-    padding-left: 0.9px;
-    box-shadow: 0 0 16px #0000002e;
-    width: 14em;
-
-}
 
 .Img_Parc>img {
 
-    width: 292px;
+   
     height: 406PX;
-    border-radius: 3% 2% 0% 0%;
+  
     margin-top: -3px;
     margin-left: -1px;
     margin-right: -1.4px;
@@ -725,24 +716,11 @@ h4 {
 
 }
 
-.Img_Notre_Dames {
-
-    background-color: white;
-    display: inline-table;
-    margin-top: 3em;
-    border: 1px solid white;
-    border-radius: 12px;
-    padding-left: 0.9px;
-    box-shadow: 0 0 16px #0000002e;
-    margin-left: -9px;
-    width: 101px;
-}
 
 .Img_Notre_Dames>img {
 
-    width: 270px;
+    
     height: 135px;
-    border-radius: 6% 6% 1% 0%;
     margin-top: -17px;
     margin-left: -2.8px;
     margin-right: -1.2px;
@@ -753,21 +731,17 @@ h4 {
 .Img_Parc_longchamp {
 
     margin-left: 3em;
-    display: inline-table;
     margin-top: 2em;
-    padding-left: 0.9px;
-    margin-left: -11px;
-    width: 100px;
+   
+   
 }
 
 .Img_Parc_longchamp>img {
 
-    width: 275px;
+   
     height: 205px;
-    border-radius: 6% 6% 1% 0%;
     margin-top: -17px;
-    margin-left: -2.8px;
-    margin-right: -1.2px;
+   
 
 }
 
