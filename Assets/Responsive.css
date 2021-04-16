@@ -6,8 +6,8 @@
 
          margin-top: 2.65%;
          text-align: center;
-         margin-left: 0%;
-        margin-right: 30%;
+         margin-left: 3%;
+         margin-right: 24%;
 
 
 
@@ -50,7 +50,7 @@
          width: 45.8%;
          font-size: 18px;
          margin-left: -66px;
-         padding-left: 61px;
+         padding-left: 70px;
          display: flex;
          justify-content: flex-end;
      }
@@ -88,7 +88,7 @@
          width: 100%;
          position: relative;
          left: 103px;
-         top: -43px;
+         top: -15px;
      }
 
 
@@ -250,6 +250,7 @@
      .petit_block_Img {
 
          margin-top: 10em;
+         margin-left: 29px;
      }
 
      #Block_img_2 {
@@ -269,6 +270,7 @@
      .petit_block_Img2 {
 
          margin-top: 0em;
+         margin-left: 18px;
      }
 
      .Img_Hebergement_Populaire {
@@ -336,9 +338,8 @@
 
 
          margin-top: 2.65%;
-         text-align: center;
-         margin-left: 4%;
-         margin-right: 19%;
+         margin-left: 6%;
+         margin-right: 37%;
 
 
 
@@ -373,19 +374,20 @@
 
      }
 
-    li >a {
+     li>a {
 
-    margin-left: 12px;
+         margin-left: 12px;
 
 
-}
+     }
+
      .Link-Nav {
          border-top: none;
          border-bottom: 3px solid #F2F2F2;
          width: 45.8%;
          font-size: 23px;
          margin-left: -66px;
-         padding-left: 71px;
+         padding-left: 79px;
          display: flex;
          justify-content: flex-end;
      }
@@ -422,7 +424,7 @@
          width: 100%;
          position: relative;
          left: 110px;
-         top: -41px;
+         top: -12px;
      }
 
      /*nav ul li a {
@@ -458,6 +460,12 @@
      .searchFormSubmitinputText {
 
          display: none;
+     }
+
+     .FormRecherche {
+
+         max-width: 141%;
+
      }
 
      /*-----FILTRE----*/
@@ -518,7 +526,8 @@
 
          padding-bottom: 10em;
          margin-top: 8px;
-         margin-left: 24px;
+         margin-left: 54px;
+
      }
 
 
@@ -541,15 +550,16 @@
      #îcones_populaires {
          position: relative;
          top: -1em;
-         left: 5em;
+         left: 74%;
      }
 
      #LesPlusPopulaires {
 
-         width: 87%;
+         width: 118%;
          display: flex;
          flex-flow: column wrap;
-         margin-left: -2px;
+         margin-left: -16px;
+
      }
 
 
@@ -579,12 +589,17 @@
          flex-flow: column;
          flex-wrap: wrap;
          margin-left: 00%;
-         padding-left: 57px;
+         padding-left: 80px;
      }
+
+
 
      .petit_block_Img {
 
          margin-top: 10em;
+         padding-left: 14px;
+
+
      }
 
 
@@ -605,6 +620,7 @@
      .petit_block_Img2 {
 
          margin-top: 0em;
+         margin-left: 24px;
      }
 
      .Img_Hebergement_Populaire {
@@ -634,16 +650,16 @@
      .img_activite>img {
 
 
-         height: 145px;
-         width: 293px;
+         height: 125px;
+         width: 253px;
 
      }
 
      .img_activite {
 
 
-         height: 190px;
-         width: 290px;
+         height: 170px;
+         width: 250px;
      }
 
      /*----------footer---*/

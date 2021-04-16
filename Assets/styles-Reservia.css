@@ -10,11 +10,12 @@ main {
     margin-top: 2.65%;
 }
 
-a{
+a {
 
     text-decoration: none !important;
 
 }
+
 /*--nav-------------*/
 nav {
 
@@ -176,13 +177,14 @@ header>p {
 
 ::placeholder {
     color: black;
-    opacity: 1; 
-  }
+    opacity: 1;
+}
 
-  .search_loupe {
+.search_loupe {
 
     display: none;
-  }
+}
+
 /*--------FILTRE DE RECHERCHE-----*/
 #Filtres {
 
@@ -331,9 +333,9 @@ header>p {
 
 
 
-.CardHebergement > p{
+.CardHebergement>p {
 
-    position:relative;
+    position: relative;
     top: -12px;
 
 }
@@ -426,7 +428,7 @@ h4 {
     margin-top: 66px;
     margin-bottom: 3em;
     width: 19em;
-    text-decoration:none ;
+    text-decoration: none;
     margin-left: 2.3%;
 }
 
@@ -518,20 +520,20 @@ h4 {
     text-decoration: none;
 }
 
-.discription_img> p {
+.discription_img>p {
 
 
-  margin-top: -15px;
+    margin-top: -15px;
 
 }
 
 
-.discription_img > .StarNote {
+.discription_img>.StarNote {
 
 
     margin-top: 14%;
-  
-  }
+
+}
 
 .Img_Hebergement_Populaire>img {
 
@@ -563,9 +565,9 @@ h4 {
 
 }
 
-.Img_VieuxPort> img {
+.Img_VieuxPort>img {
 
-    
+
     height: 406PX;
     margin-top: -3px;
     margin-left: -2px;
@@ -591,9 +593,8 @@ h4 {
 
 .Activité_images {
 
-    margin-top: 5em;
-    margin-left: -3em;
-
+    margin-top: 4em;
+    margin-left: -36px;
 }
 
 #Article_Activite_Marseille {
@@ -623,21 +624,21 @@ h4 {
 
     display: flex;
     flex-direction: column;
-    margin-top: 14em;
+    margin-top: 207px;
 }
 
 .Img_paul {
 
 
-   
+
     margin: -7em 0px 0px 0px;
     padding-bottom: 0em;
     padding-left: 0.9px;
-    height: 281PX;
-    
+    height: 242px;
+
 }
 
-.img_activite{
+.img_activite {
 
     display: flex;
     flex-flow: column;
@@ -650,7 +651,7 @@ h4 {
     text-decoration: none;
 }
 
-.img_activite > img{
+.img_activite>img {
 
     width: 252px;
     margin-left: -1px;
@@ -659,10 +660,11 @@ h4 {
 
 
 }
+
 .Img_paul>img {
 
-    
-    height: 236px;
+
+    height: 192px;
     margin-top: -3px;
     margin-left: -2px;
 }
@@ -670,15 +672,15 @@ h4 {
 .images_Îles_frioule {
 
     margin-left: -38px;
-        padding-bottom: 2em;
+    padding-bottom: 2em;
     height: 145px;
-    margin-top: 15px;
+    margin-top: 33px;
 }
 
 
 .Img_iles_des_frioule>img {
 
- 
+
     height: 135px;
     margin-left: -1px;
     margin-top: -17px;
@@ -698,9 +700,9 @@ h4 {
 
 .Img_Parc>img {
 
-   
+
     height: 406PX;
-  
+
     margin-top: -3px;
     margin-left: -1px;
     margin-right: -1.4px;
@@ -712,14 +714,15 @@ h4 {
 
     display: flex;
     flex-flow: column wrap;
-    margin-top: 4.5em;
+    margin-top: 53px;
+    padding-top: 23px;
 
 }
 
 
 .Img_Notre_Dames>img {
 
-    
+
     height: 135px;
     margin-top: -17px;
     margin-left: -2.8px;
@@ -727,21 +730,26 @@ h4 {
 
 }
 
+.Img_Notre_Dames {
+
+    margin-left: 1em;
+
+}
 
 .Img_Parc_longchamp {
 
-    margin-left: 3em;
+    margin-left: 1em;
     margin-top: 2em;
-   
-   
+
+
 }
 
 .Img_Parc_longchamp>img {
 
-   
-    height: 205px;
+
+    height: 181px;
     margin-top: -17px;
-   
+
 
 }
 
