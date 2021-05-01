@@ -354,6 +354,7 @@
     h2 {
 
         margin-left: 2em;
+        margin-left: inherit;
     }
 
     /*------MENU----*/
@@ -484,8 +485,8 @@
 
 
         flex-wrap: wrap;
-        width: 80%;
-        justify-content: flex-start;
+       /* width: 80%;
+        ustify-content: flex-start; */
 
     }
 
@@ -497,6 +498,7 @@
     #Information_logement {
 
         margin-top: 19em;
+        width: 327px;
     }
 
     #ButtonFiltres {
@@ -510,7 +512,7 @@
     .info>i {
 
 
-        left: 1px;
+        left: 4px;
     }
 
 
@@ -1134,7 +1136,7 @@
 
     }
 
-    footer {
+   /* footer {
 
         display: block;
         margin-bottom: -16px;
@@ -1386,4 +1388,5 @@
         top: -1em;
         left: 14em;
     }
+}
 }
