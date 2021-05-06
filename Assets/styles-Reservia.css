@@ -8,11 +8,19 @@ main {
     margin-left: 3.89%;
     margin-right: 3.89%;
     margin-top: 2.65%;
+    max-width: 1440px;
 }
 
 a {
 
     text-decoration: none !important;
+    font-style: normal !important;
+
+}
+
+ul li{
+
+    font-style: normal !important;
 
 }
 
