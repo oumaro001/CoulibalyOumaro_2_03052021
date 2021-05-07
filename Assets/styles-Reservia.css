@@ -9,7 +9,6 @@ main {
     margin-top: 2.65%;
     max-width: 2000px;
     margin-right: 3.83%;
-    width: -moz-fit-content;
 }
 
 a {
@@ -781,7 +780,7 @@ footer {
 
 .A_propos{
 
-    margin-left: 20%;
+    margin-left: 128px;
 }
 h5 {
 
