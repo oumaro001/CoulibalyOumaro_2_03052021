@@ -5,10 +5,11 @@ body {
 
 main {
 
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3.83%;
     margin-top: 2.65%;
     max-width: 2000px;
+    margin-right: 3.83%;
+    width: -moz-fit-content;
 }
 
 a {
@@ -780,7 +781,7 @@ footer {
 
 .A_propos{
 
-    margin-left: 148px;
+    margin-left: 20%;
 }
 h5 {
 

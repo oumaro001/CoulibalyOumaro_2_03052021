@@ -324,9 +324,8 @@
 
     }
 
-    #A_propos {
-
-        margin-left: 3%;
+    .A_propos {
+        margin-left: 0px;
     }
 }
 
@@ -777,9 +776,9 @@ border-radius: 0%;
 
     }
 
-    #A_propos {
+    .A_propos {
 
-        margin-left: 3%;
+        margin-left: 0px;
     }
 
 }
@@ -1013,9 +1012,9 @@ border-radius: 0%;
     }
 
 
-    #A_propos {
+    .A_propos {
 
-        margin-left: 3%;
+        margin-left: 0px;
     }
 }
 
@@ -1468,13 +1467,16 @@ border-radius: 0%;
 
 }
 
-@media screen and (min-width:1231px) {
+@media screen and (min-width:1331px) {
 
 
-    *{
+    main{
 
-        margin: 0px;
-        padding: 0;
+        margin-left: 16.83%;
+margin-top: 2.65%;
+max-width: 2000px;
+margin-right: 3.83%;
+width: -moz-fit-content;
     }
     #îcones_populaires {
 
@@ -1482,5 +1484,10 @@ border-radius: 0%;
         top: -1em;
         left: 14em;
     }
+}
+
+.A_propos{
+
+    margin-left: 0px;
 }
 }
