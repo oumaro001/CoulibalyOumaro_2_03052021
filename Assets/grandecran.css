@@ -1,0 +1,798 @@
+@media screen and (min-width:1500px) and (max-width:1999px) {
+
+
+    main {
+
+        margin-left: 10.83%;
+        margin-top: 2.65%;
+        max-width: 2000px;
+        margin-right: 10.83%;
+    }
+    
+    a {
+    
+        text-decoration: none !important;
+        font-style: normal !important;
+    
+    }
+    
+    ul li{
+    
+        font-style: normal !important;
+    
+    }
+    
+    /*--nav-------------*/
+    nav {
+    
+        display: flex;
+        float: right;
+        margin-right: 16em;
+    }
+    
+    ul {
+    
+        display: flex;
+        list-style-type: none;
+        position: relative;
+        left: 65%;
+        margin-top: 6px;
+    
+    
+    }
+    
+    li {
+    
+        margin-right: 3%;
+        font-size: inherit;
+        margin-left: -1em;
+        text-decoration: none;
+    
+    
+    }
+    
+    nav ul li a {
+    
+        text-decoration: none;
+        color: black;
+        padding-top: 53.2px;
+    }
+    
+    nav ul li a:hover {
+    
+        color: #0065FC;
+        border-top: #0065FC 3px solid;
+        padding-top: 38.2px;
+    
+    
+    }
+    
+    #inscription {
+    
+        color: #0065FC;
+        text-decoration: none;
+        position: relative;
+        left: 12em;
+        top: 5px;
+        float: right;
+    }
+    
+    #Logos {
+    
+        width: 7.67%;
+        height: 1.49%;
+        margin-top: 0.05%;
+    }
+    
+    #Hebergement_activite {
+    
+        display: flex;
+        margin-left: -6em;
+        margin-top: -13%;
+    }
+    
+    .Link-Nav {
+        padding: 2rem;
+        font-weight: bold;
+        text-align: center;
+        transition-duration: 0.1s;
+    
+    }
+    
+    
+    /* ---HEADER----*/
+    #section_recherche {
+    
+        margin-top: 1.34%;
+    }
+    
+    #titre_header h1 {
+    
+        font-size: 2em;
+    
+    }
+    
+    header>p {
+    
+        font-size: 13px;
+        font-size: smaller;
+        margin-top: 8px;
+        margin-left: 20px;
+        color: black;
+        font-weight: bold;
+    }
+    
+    
+    /*---------------------------Barre de recherche---------------------*/
+    .searchHeaderTitle {
+        margin-bottom: 0.5rem;
+    }
+    
+    .searchHeaderSubtitle {
+        margin-top: 0;
+    }
+    
+    .FormRecherche {
+        display: inline-flex;
+        max-width: 100%;
+        overflow: auto;
+        margin-top: 10px;
+    }
+    
+    .Buttonîcone {
+        background-color: #F2F2F2;
+        padding: 1rem 1.25rem;
+        border-radius: 1rem 0 0 1rem;
+        text-align: center;
+    }
+    
+    .IconLogos {
+        margin-left: 0.1rem;
+    }
+    
+    .BarreRecherche {
+        border-right: none;
+        border-left: none;
+        border-top: #F2F2F2 1px solid;
+        border-bottom: #F2F2F2 1px solid;
+        padding: 0 1.5rem;
+        box-sizing: border-box;
+        width: 14rem;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Raleway", "Sans serif";
+    }
+    
+    .ButtonSearch::placeholder {
+        font-family: "Raleway", "Sans serif";
+        font-size: 1rem;
+        color: #00000069;
+    }
+    
+    .ButtonSearch {
+        background-color: #0065FC;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 0 1rem 1rem 0;
+        padding: 0 1.5rem;
+        font-family: "Raleway", "Sans serif";
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    ::placeholder {
+        color: black;
+        opacity: 1;
+    }
+    
+    .search_loupe {
+    
+        display: none;
+    }
+    
+    /*--------FILTRE DE RECHERCHE-----*/
+    #Filtres {
+    
+        display: flex;
+        margin-top: 31px;
+        padding-top: 4px;
+        height: 45px;
+    }
+    
+    #Filtres>h2 {
+    
+        margin-top: 9px;
+    }
+    
+    #ButtonFiltres {
+    
+        display: flex;
+    }
+    
+    .FiltreSearch {
+    
+        display: flex;
+        margin-left: 4em;
+        border-radius: 30px;
+        padding-right: 1em;
+        border-bottom: 0em;
+        padding-bottom: 0px;
+        padding: 2px;
+        border: 2px #F2F2F2 solid;
+    }
+    
+    
+    .îconeFiltres {
+    
+        position: relative;
+        background-color: #DEEBFF;
+        color: #0065FC;
+        border-radius: 100%;
+        height: 1.6rem;
+        width: 1.8rem;
+        min-height: 1.5rem;
+        min-width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 0.1px;
+        padding: 10px;
+        margin: -3px;
+        top: 0px;
+    }
+    
+    .FiltreSearch p {
+    
+        padding-left: 1em;
+        margin: auto;
+        font-weight: bold;
+        margin-right: 12px;
+    
+    }
+    
+    
+    .FiltreSearch:hover {
+    
+        background-color: #DEEBFF;
+    
+    }
+    
+    /*----informaton logement------*/
+    
+    #Information_logement {
+    
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .info {
+    
+        color: #0065FC;
+        border: 1px solid #F2F2F2;
+        border-radius: 100%;
+        padding: 4px;
+        padding-top: 4px;
+        padding-top: 15px;
+        width: 20px;
+        height: 9px;
+        margin-top: 8px;
+    }
+    
+    .info>i {
+    
+        position: relative;
+        top: -0.6em;
+        left: 8px;
+    }
+    
+    
+    
+    #Information_logement>p {
+    
+        margin-left: 10px;
+        margin-top: 0.9em;
+    }
+    
+    
+    .i {
+    
+        position: relative;
+        top: 6px;
+        font-weight: bolder;
+        font-size: unset;
+        font-family: 'Shippori Mincho', serif;
+        left: -1px;
+    }
+    
+    /*----------Hebergement-------------------*/
+    
+    .CardHebergement {
+        border: 6px solid white;
+        display: inline-table;
+        border-radius: 14px;
+        padding: 1px;
+        padding-bottom: 4px;
+        background-color: white;
+        box-shadow: 0 0 16px #0000002e;
+        color: black;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-top: 22px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+    
+    #Section1 {
+    
+        display: flex;
+        margin-top: -43px;
+    
+    }
+    
+    #HemergementMarseille>h2 {
+    
+        margin-left: 4%;
+        margin-top: 5%;
+    
+    }
+    
+    
+    
+    .CardHebergement>p {
+    
+        position: relative;
+        top: -12px;
+    
+    }
+    
+    .CardHebergement>img {
+    
+        width: 214px;
+        height: 111px;
+        border-top-left-radius: 6%;
+        border-top-right-radius: 6%;
+    }
+    
+    
+    h3 {
+    
+        margin-top: 3px;
+        font-size: inherit;
+    }
+    
+    h3>p {
+    
+        font-size: smaller;
+        text-decoration: none;
+        margin-top: -8px;
+    }
+    
+    
+    
+    .StarNote {
+    
+        width: 90px;
+        font-size: small;
+        color: #0065FC;
+        margin-top: -24px;
+    }
+    
+    figure>a {
+    
+        text-decoration: none;
+        text-decoration-line: none;
+        color: black;
+    }
+    
+    #HemergementMarseille {
+    
+    
+        background-color: #F2F2F2;
+        border: 1px solid #F2F2F2;
+        margin-top: 4em;
+        border-radius: 2%;
+        margin-bottom: 3em;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        width: 849px;
+        height: 623px;
+    }
+    
+    
+    
+    #Hebergement {
+    
+    
+        display: grid;
+        column-gap: 2rem;
+        grid-template-columns: 6fr 3fr
+    }
+    
+    h4 {
+    
+        position: relative;
+        top: 6em;
+        left: 3em;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+    
+    
+    
+    #LesPlusPopulaires {
+    
+    
+    
+        border: 5px solid #F2F2F2;
+        background-color: #F2F2F2;
+        border-radius: 4%;
+        padding-left: 6em;
+        margin-top: 66px;
+        margin-bottom: 3em;
+        width: 19em;
+        text-decoration: none;
+        margin-left: 2.3%;
+    }
+    
+    
+    #div_Hebergement {
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: -5em;
+        width: 100%;
+    }
+    
+    
+    .AfficherPlus {
+    
+        color: black;
+        background-color: transparent;
+        text-decoration: transparent;
+        font-weight: 900;
+        margin-left: 3em;
+        position: relative;
+        top: -2em;
+    }
+    
+    
+    #HebergementPopulaires {
+    
+        position: relative;
+        top: -0.6em;
+        right: 4.5em;
+        margin-right: -3em;
+    }
+    
+    #HebergementPopulaires a {
+    
+        margin: 2px;
+    }
+    
+    #îcones_populaires {
+    
+        position: relative;
+        top: -1em;
+        left: 17em;
+    }
+    
+    
+    .PopulaireH2>h2 {
+    
+        position: relative;
+        left: -3em;
+        top: 1em;
+    }
+    
+    #PopulaireH2 {
+    
+        display: flex;
+    }
+    
+    #BarreHebergement {
+    
+        border: 1px solid black;
+    
+    }
+    
+    .Img_Hebergement_Populaire {
+    
+    
+        border: 6px solid white;
+        display: flex;
+        border-radius: 16px;
+        padding: 1px;
+        padding-bottom: 4px;
+        background-color: white;
+        box-shadow: 3px 4px #0000002e;
+        height: 129px;
+    }
+    
+    .discription_img {
+    
+        display: grid;
+        color: #000000;
+        text-decoration: none;
+        margin-top: 11px;
+        margin-top: -10px;
+    }
+    
+    .StarNote>i {
+    
+        text-decoration: none;
+    }
+    
+    .discription_img>p {
+    
+    
+        margin-top: -15px;
+    
+    }
+    
+    .discription_img h3{
+    
+        margin-top: 20px;
+    }
+    .discription_img>.StarNote {
+    
+    
+        margin-top: 14%;
+    
+    }
+    
+    .Img_Hebergement_Populaire>img {
+    
+        width: 140px;
+        height: 135px;
+        padding-right: 0em;
+        margin-right: 1em;
+        border-radius: 13px 0px 1px 13px;
+    }
+    
+    
+    
+    /*----------------------------activiteMarseille------------------------*/
+    #Activité_Marseille {
+    
+    
+        margin-top: -60px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0%;
+    }
+    
+    #Activité_Marseille>h2 {
+    
+        position: relative;
+        top: 2em;
+        left: 0em;
+    
+    }
+    
+    .Img_VieuxPort>img {
+    
+    
+        height: 406PX;
+        margin-top: -3px;
+        margin-left: -2px;
+        margin-right: -1.4px;
+    }
+    
+    
+    .Img_VieuxPort {
+    
+        background-color: white;
+        margin-left: 3em;
+        display: inline-table;
+        margin-top: 2em;
+    }
+    
+    .Text_activite {
+    
+        margin-left: 9px;
+        color: black;
+        text-decoration: transparent;
+        font-weight: bold;
+    
+    }
+    
+    .Activité_images {
+    
+        margin-top: 4em;
+        margin-left: -36px;
+    }
+    
+    #Article_Activite_Marseille {
+    
+        display: flex;
+        justify-content: center;
+        margin-left: 13px;
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    #Block_Img_1 {
+    
+        display: flex;
+        margin-left: -5px;
+    
+    }
+    
+    #Block_img_2 {
+    
+        display: flex;
+        align-items: center;
+        margin-left: -7px;
+    }
+    
+    .petit_block_Img {
+    
+        display: flex;
+        flex-direction: column;
+        margin-top: 207px;
+    }
+    
+    .Img_paul {
+    
+    
+    
+        margin: -7em 0px 0px 0px;
+        padding-bottom: 0em;
+        padding-left: 0.9px;
+        height: 242px;
+    
+    }
+    
+    .img_activite {
+    
+        display: flex;
+        flex-flow: column;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 12px;
+        padding-left: 0.9px;
+        box-shadow: 0 0 16px #0000002e;
+        width: 249px;
+        text-decoration: none;
+    }
+    
+    .img_activite>img {
+    
+        width: 252px;
+        margin-left: -1px;
+        border-radius: 4% 4% 0% 0%;
+        margin-top: -1px;
+    
+    
+    }
+    
+    .Img_paul>img {
+    
+    
+        height: 192px;
+        margin-top: -3px;
+        margin-left: -2px;
+    }
+    
+    .images_Îles_frioule {
+    
+        margin-left: -38px;
+        padding-bottom: 2em;
+        height: 145px;
+        margin-top: 33px;
+    }
+    
+    
+    .Img_iles_des_frioule>img {
+    
+    
+        height: 135px;
+        margin-left: -1px;
+        margin-top: -17px;
+    
+    }
+    
+    .Img_iles_des_frioule>p {
+    
+    
+        margin-top: 5px;
+    
+    }
+    
+    /*-------petie block 2-------*/
+    
+    
+    
+    .Img_Parc>img {
+    
+    
+        height: 406PX;
+    
+        margin-top: -3px;
+        margin-left: -1px;
+        margin-right: -1.4px;
+    
+    }
+    
+    
+    .petit_block_Img2 {
+    
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 53px;
+        padding-top: 23px;
+    
+    }
+    
+    
+    .Img_Notre_Dames>img {
+    
+    
+        height: 135px;
+        margin-top: -17px;
+        margin-left: -2.8px;
+        margin-right: -1.2px;
+    
+    }
+    
+    .Img_Notre_Dames {
+    
+        margin-left: 1em;
+    
+    }
+    
+    .Img_Parc_longchamp {
+    
+        margin-left: 1em;
+        margin-top: 2em;
+    
+    
+    }
+    
+    .Img_Parc_longchamp>img {
+    
+    
+        height: 181px;
+        margin-top: -17px;
+    
+    
+    }
+    
+    /*------------------------FOOTER-----------*/
+    footer {
+    
+        margin-bottom: -9px;
+        display: flex;
+        background-color: #F2F2F2;
+        color: black;
+        margin-top: 5em;
+        padding-top: 3em;
+        margin-left: -1%;
+        padding-left: 20px;
+        margin-right: -5px;
+    
+    }
+    
+    .A_propos{
+    
+        margin-left: 128px;
+    }
+    h5 {
+    
+        font-size: medium;
+    
+    }
+    
+    .Text_footer_1>a {
+    
+    
+        text-decoration: none;
+        color: black;
+    }
+}

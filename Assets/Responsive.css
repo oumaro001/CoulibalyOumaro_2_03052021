@@ -1236,41 +1236,7 @@
 
     }
 
-    @media screen and (min-width:1350px) and (max-width:1999px) {
-
-
-        * {
-
-            margin: 0 auto;
-            max-width: 2040px;
-        }
-        main{
-        margin-left: 10.83%;
-        margin-top: 2.65%;
-        max-width: 2000px;
-        margin-right: 10.83%;
-
-        }
-        #îcones_populaires {
-
-            position: relative;
-            top: -1em;
-            left: 14em;
-        }
-    }
-
-    .A_propos {
-
-        margin-left: 0px;
-        padding-left: 100px;
-    }
-
-    #Article_Activite_Marseille {
-        justify-content: left;
-    }
 }
-
-
 
 
 
