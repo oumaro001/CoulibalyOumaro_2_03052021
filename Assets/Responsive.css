@@ -1467,16 +1467,19 @@ border-radius: 0%;
 
 }
 
-@media screen and (min-width:1331px) {
+@media all and (min-width:1331px) and (max-width:2000px) {
 
+
+    *{
+
+        margin: 0 auto;
+        max-width: 1440px;
+    }
 
     main{
 
-        margin-left: 16.83%;
-margin-top: 2.65%;
-max-width: 2000px;
-margin-right: 3.83%;
-width: -moz-fit-content;
+        margin: 0 auto;
+        max-width: 1440px;
     }
     #îcones_populaires {
 
@@ -1489,5 +1492,10 @@ width: -moz-fit-content;
 .A_propos{
 
     margin-left: 0px;
+    padding-left: 100px;
+}
+
+#Article_Activite_Marseille {
+    justify-content: normal;
 }
 }
